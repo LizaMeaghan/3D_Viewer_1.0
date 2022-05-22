@@ -13,3 +13,5 @@ This is the simple 3D viewer, which opens obj files and reads only vertices and 
     <li>Take a screenshots</li>
     <li>Choose display options such as background color, polygon color, line color, etc.</li>
   </ul>
+<h3>Example</h3>
+<img src = 1.gif>
