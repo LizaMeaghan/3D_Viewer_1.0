@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>DockWidget</class>
+ <widget class="QDockWidget" name="DockWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>283</width>
+    <height>601</height>
+   </rect>
+  </property>
+  <property name="contextMenuPolicy">
+   <enum>Qt::DefaultContextMenu</enum>
+  </property>
+  <property name="acceptDrops">
+   <bool>false</bool>
+  </property>
+  <property name="windowTitle">
+   <string>Control Bar</string>
+  </property>
+  <widget class="QWidget" name="dockWidgetContents">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QPushButton" name="scale_plus_1">
+      <property name="text">
+       <string>Scale +1</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="scale_minus_1">
+      <property name="text">
+       <string>Scale -1</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_6">
+      <item>
+       <widget class="QLabel" name="label_x">
+        <property name="text">
+         <string>Ось Х</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QDoubleSpinBox" name="doubleSpinBox_X"/>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <widget class="QLabel" name="slide_rotate_Y_info">
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item alignment="Qt::AlignTop">
+     <widget class="QSlider" name="rotate_Y_slider">
+      <property name="sliderPosition">
+       <number>0</number>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <widget class="QPushButton" name="translate_butt_pos">
+        <property name="text">
+         <string>&lt;-</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="translate_but_neg">
+        <property name="text">
+         <string>-&gt;</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_5">
+      <item>
+       <widget class="QLabel" name="label_y">
+        <property name="text">
+         <string>Ось У</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QDoubleSpinBox" name="doubleSpinBox_Y"/>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <widget class="QLabel" name="slide_rotate_X_info">
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item alignment="Qt::AlignTop">
+     <widget class="QSlider" name="rotate_X_slider">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_2">
+      <item>
+       <widget class="QPushButton" name="translate_butt_pos_y">
+        <property name="text">
+         <string>Upper</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="translate_butt_neg_y">
+        <property name="text">
+         <string>Lower</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_4">
+      <item>
+       <widget class="QLabel" name="label_z">
+        <property name="text">
+         <string>Ось Z</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QDoubleSpinBox" name="doubleSpinBox_Z"/>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <widget class="QLabel" name="slide_rotate_Z_info">
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item alignment="Qt::AlignTop">
+     <widget class="QSlider" name="rotate_Z_slider">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_3">
+      <item>
+       <widget class="QPushButton" name="translate_butt_pos_z">
+        <property name="text">
+         <string>Closer</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="translate_butt_neg_z">
+        <property name="text">
+         <string>Farther</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item alignment="Qt::AlignBottom">
+     <widget class="QLabel" name="info_label">
+      <property name="minimumSize">
+       <size>
+        <width>10</width>
+        <height>10</height>
+       </size>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="reset">
+      <property name="text">
+       <string>Reset</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+   <zorder>scale_plus_1</zorder>
+   <zorder>scale_minus_1</zorder>
+   <zorder>info_label</zorder>
+   <zorder>reset</zorder>
+   <zorder>slide_rotate_Y_info</zorder>
+   <zorder>rotate_Y_slider</zorder>
+   <zorder>rotate_X_slider</zorder>
+   <zorder>slide_rotate_X_info</zorder>
+   <zorder>slide_rotate_Z_info</zorder>
+   <zorder>rotate_Z_slider</zorder>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
