@@ -5,10 +5,11 @@ This program was created by students of School 21 in Novosibirsk (nicknames - ug
 
 This is the simple 3D viewer, which opens obj files and reads only vertices and faces
 
-Functions
-
-    Open obj files
-    Rotate figures along three axes
-    Move shapes along three axes
-    Take a screenshots
-    Choose display options such as background color, polygon color, line color, etc.
+<h4>Functions</h4>
+  <ul>
+    <li>Open obj files</li>
+    <li>Rotate figures along three axes</li>
+    <li>Move shapes along three axes</li>
+    <li>Take a screenshots</li>
+    <li>Choose display options such as background color, polygon color, line color, etc.</li>
+  </ul>
